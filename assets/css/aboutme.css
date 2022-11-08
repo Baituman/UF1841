@@ -1,0 +1,35 @@
+.main-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 80px;
+    width: 70%;
+    
+}
+
+.video-wrapper iframe {
+
+    float:right;
+    text-align: justify;
+    padding: 10px;
+}
+
+.article-wrapper img {
+
+    float: left;
+    width: 33%;
+    text-align: justify;
+    padding: 10px;
+}

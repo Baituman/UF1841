@@ -1,0 +1,72 @@
+body {
+
+    background-image: url("/Portafolio/assets/img/backgrounds/caballete-fondo-pared.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-wrapper {
+
+    height: 650px;
+    padding-left: 160px;
+}
+
+.main-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: inherit;
+}
+
+.map-container iframe {
+
+    height: 380px;
+    width: 70%;
+    position: relative;
+    margin-top: -80px;
+    padding-left: 90px;
+}
+
+.form-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    
+    
+}
+
+.form-wrapper input {
+
+    background-color: rgb(128, 128, 128, .4);
+    border: 2px solid grey;
+    position: relative;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.data {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.data label {
+
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: #E6B17E;
+    font-weight: 900;
+    text-shadow: 2px 2px #2A160C;
+}
+

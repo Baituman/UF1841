@@ -1,0 +1,59 @@
+
+
+.sections-navigation {
+
+    background-color: #11122b;
+    color: white;
+    position: sticky;
+    top: 0;
+    /* padding: 5px 30px; */
+    border-top: 5px solid rgb(102, 60, 60);
+    border-bottom: 5px solid rgb(102, 60, 60);
+    height: fit-content;
+    font-family: 'Josefin Sans', cursive;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    
+}
+
+.sections-navigation :visited {
+
+    color: white;
+}
+
+.sections-navigation > .navigation > .menu-list {
+
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: beige;
+   padding: 20px;
+   
+   
+   
+}
+
+.sections-navigation > .navigation > .menu-list > li {
+
+    
+   border-bottom: 5px solid transparent;
+   transition: 0.8s;
+   line-height: 2em;
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+   grid-gap: 10px;
+   
+   
+}
+.sections-navigation > .navigation > .menu-list > li:hover {
+
+    
+    border-bottom: 5px solid rgb(102, 60, 60);
+    border-radius: 3px;
+    animation: ease-in 2s linear 2s right;
+    
+ }
+
+

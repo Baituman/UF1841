@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgba(141, 142, 104, 1);
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(11, 11, 0, 0.6);
+            padding: 25px;
+        }
+
+        .column-container{
+
+            display: grid;
+            grid-template-columns: 1.5fr 0.1fr 1.5fr;
+        }
+
+        .links-container  ul {
+
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            
+        }
+
+        .site-container  ul {
+
+            list-style: none;
+            line-height: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+        }
+
+        .site-container > ul li {
+
+            text-decoration: none;
+            color: white;
+            background-color: rgba(189, 179, 138, 1);
+            padding: 3px 28px;
+            border-radius: 5px;
+            font-size: 1.5em;
+            color: rgba(129, 121, 85, 1);
+        }
+
+        .indicator ul{
+
+            list-style: none;
+            line-height: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+        }
+
+
+        .indicator > ul li {
+
+            text-align: center;
+            line-height: 0.8em;
+            
+            font-size: 3em;
+            color: #30c48e;
+        }
+
+        .tabla > li > a {
+            text-decoration: none;
+            color: white;
+            background-color: rgba(129, 121, 85, 1);
+            padding: 3px 28px;
+            border-radius: 5px;
+            font-size: 1.6em;
+
+        }
+
+        .container h1{
+
+            padding: 0px 50px;
+            color:  #30c48e;
+            letter-spacing: 5px;
+            text-shadow: 3px 2px #c9f0c7;
+            font-size: 3em;
+        }
+    </style>
+    
+    <title>Websites Interesantes</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <h1>Websites Interesantes</h1>
+
+    <table id="tabla">
+
+        <div class="site-container">
+
+            <ul class="tabla">
+            <li>The Odin Project</li>
+            <li>CSS Battle</li>
+            <li>Team Tree House</li>
+            <li>CoderByte</li>
+            <li>Codepen</li>
+            <li>Javascript 30</li>
+            <li>Manual Javascript</li>
+            <li>Famoso W3 Schoolcs</li>
+            <li>OverApi</li>
+            <li>Juego Grid CSS</li>
+            <li>Juego Rana Flexbox</li>
+            <li>Herramientas para Imagenes</li>
+            
+            </ul>
+        </div>
+        
+        <div class="indicator">
+
+            <ul class="tabla">
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+                <li>&#9755; </li>
+            </ul>
+        </div>
+
+        <div class="links-container">
+
+            <ul class="tabla">
+            <li><a href="https://theodinproject.com">Curso gratuito Full stack /Ingles</a></li>
+            <li><a href="https://cssbattle.dev">Practicar CSS</a></li>
+            <li><a href="https://teamtreehouse.com">Javascript y PHP</a></li>
+            <li><a href="https://coderbyte.com">Practicar codigo</a></li>
+            <li><a href="https://codepen.io">Practicar codigo</a></li>
+            <li><a href="https://javascript30.com">Javascript</a></li>
+            <li><a href="https://info.javascript.es">Javascript /castellano</a></li>
+            <li><a href="https://w3schools.com">Aprender codigo</a></li>
+            <li><a href="https://overapi.com">Cheatsheets</a></li>
+            <li><a href="https://cssgridgarden.com">Practicar GridCss</a></li>
+            <li><a href="https://flexboxfroggy.com">Practicar Flexbox</a></li>
+            <li><a href="https://iloveimg.com">Tool para Imagenes</a></li>
+            
+            </ul>
+        </div>
+    </table>
+
+</div>
+    
+</body>
+</html>

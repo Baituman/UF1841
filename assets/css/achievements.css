@@ -1,0 +1,71 @@
+body {
+
+    background-image: url("/Portafolio/assets/img/backgrounds/caballete-fondo-ladrillo.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.table-wrapper {
+
+    height: 750px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+
+    box-shadow: 28px 28px 108px rgb(235, 143, 15);
+    height: auto;
+    background-color: rgba(15, 13, 13, 0.3);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    transform:rotate3d(0, 10, 1, 45deg);
+    padding: 23px 50px;
+}
+
+.table-container > table td {
+
+    padding-left: 15px;
+    padding-right: 5px;
+
+    
+}
+
+.table-container > table td:nth-child(even) a{
+
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+    
+
+    
+}
+
+.table-container > table th {
+
+    font-size: 2rem;
+    color: blanchedalmond;
+    font-family: 'Goldman', cursive;
+    text-shadow: 5px 5px 25px white;
+}
+
+.table-container > table tr:nth-child(even) {
+
+    background-color: rgba(17, 18, 43, .3);
+    color: rgb(201, 189, 24);
+    
+}
+
+.table-container > table tr:nth-child(odd) {
+
+    background-color: rgba(201, 189, 24, .3);
+    color: rgb(15, 146, 221);
+    
+}
