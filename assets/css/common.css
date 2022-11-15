@@ -18,7 +18,7 @@ body {
 
 header{
 
-    background-image: url("/assets/img/pocket-watch-1637396_1280.jpg");
+    background-image: url("../img/pocket-watch-1637396_1280.jpg");
     height: 100px;
     background-size: cover;
     background-position: center;
