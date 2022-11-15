@@ -18,7 +18,7 @@ body {
 
 header{
 
-    background-image: url("/Portafolio/assets/img/pocket-watch-1637396_1280.jpg");
+    background-image: url("assets/img/pocket-watch-1637396_1280.jpg");
     height: 100px;
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ header{
 
 .landing-banner {
 
-    background-image: url("/Portafolio/assets/img/book-863418_1280.jpg");
+    background-image: url("assets/img/book-863418_1280.jpg");
     height: 450px;
     width: auto;
     background-position: center;
@@ -95,7 +95,7 @@ header{
 
 .details-wrapper {
 
-    background-image: url("/Portafolio/assets/img/fondopattern.jfif");
+    background-image: url("assets/img/fondopattern.jfif");
     
     background-repeat: repeat;
     height: 340px;
@@ -158,7 +158,7 @@ header{
 
 .abece-container {
 
-    background-image: url("/Portafolio/assets/img/alphabet-916673_1280.jpg");
+    background-image: url("assets/img/alphabet-916673_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -309,7 +309,7 @@ header{
 
 .iq-container{
 
-    background-image: url("/Portafolio/assets/img/iqbcgr.jfif");
+    background-image: url("assets/img/iqbcgr.jfif");
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 5px solid white;
@@ -334,7 +334,7 @@ header{
 
 footer {
 
-    background-image: url("/Portafolio/assets/img/dev-7292707_1280.png");
+    background-image: url("assets/img/dev-7292707_1280.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
